@@ -12,12 +12,18 @@
 // unknownSample()
 
 //04. Functions
-import { logMessage } from './function/basic'
-import { isUserSignedIn, isUserSignedIn2, sumProductPrice } from './function/parameters'
-logMessage('Hello TypeScript')
-isUserSignedIn('ABC', 'Manami')
-isUserSignedIn('DEF')
-isUserSignedIn2('ABC')
-isUserSignedIn2('DEF')
-const sum = sumProductPrice(100, 200, 300, 400, 500)
-console.log('Function parameter sample5 : ', sum)
+// import { logMessage } from './function/basic'
+// import { isUserSignedIn, isUserSignedIn2, sumProductPrice } from './function/parameters'
+// logMessage('Hello TypeScript')
+// isUserSignedIn('ABC', 'Manami')
+// isUserSignedIn('DEF')
+// isUserSignedIn2('ABC')
+// isUserSignedIn2('DEF')
+// const sum = sumProductPrice(100, 200, 300, 400, 500)
+// console.log('Function parameter sample5 : ', sum)
+
+//05. Object
+import objectSample from './object/object'
+import typeAliauSample from './object/alias'
+objectSample()
+typeAliauSample()
